@@ -10,12 +10,12 @@ This project will leverage social media and potentially other sources (e.g. Waze
 
 ### Directory Structure
 
-- data: contains raw, transformed and final output data
-- notebooks: jupyter notebooks
-- models: trained models, model predictions, model summaries
-- references: data dictionaries, and other explanatory materials.
-- reports: final report(s) summarizing project
-- src: source code for use in this project
+- **data**: contains raw, transformed and final output data
+- **notebooks**: jupyter notebooks
+- **models**: trained models, model predictions, model summaries
+- **references**: data dictionaries, and other explanatory materials.
+- **reports**: final report(s) summarizing project
+- **src**: source code for use in this project
 
 
 ## Team
