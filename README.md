@@ -1,4 +1,4 @@
-# Identifying Blocked Roads in Real-Time
+# Optimizing Evacuation Routes, by Identifying Blocked Roads in Real-Time
 
 ## Overview
 
@@ -6,16 +6,16 @@ During disasters, search and rescue teams must be able to search for and get to 
 
 This project will leverage social media and potentially other sources (e.g. Waze, Here.com, news feeds) to identify real time road closures or damaged roads, power outages and other blocked routes that may affect the travel time from point A to B during and after a natural disaster.
 
-**Goal:** Allow a user (the public or rescue teams) to search for any of these conditions and identify if and where they exist in a specific location (street, neighborhood, etc.). The output will either be tabular (e.g. search names of closed roads) or geospatial (e.g. a map of real-time blocked roads).
+**Goal:** Allow a user (the public or rescue teams) to search for any of these conditions and identify if and where they exist in a specific location (street, neighborhood, etc.). The output will be tabular (e.g. search names of closed roads) and geospatial (e.g. a map of real-time blocked roads). The hope is that this information would allow users to find the shortest, fastest route when there are a high number of unexpected road blockages (e.g. during/immediately after natural disasters). 
 
 ### Directory Structure
 
-- data: contains raw, transformed and final output data
-- notebooks: jupyter notebooks
-- models: trained models, model predictions, model summaries
-- references: data dictionaries, and other explanatory materials.
-- reports: final report(s) summarizing project
-- src: source code for use in this project
+- **data**: contains raw, transformed and final output data
+- **notebooks**: jupyter notebooks
+- **models**: trained models, model predictions, model summaries
+- **references**: data dictionaries, and other explanatory materials.
+- **reports**: final report(s) summarizing project
+- **src**: source code for use in this project
 
 
 ## Team
