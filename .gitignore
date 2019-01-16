@@ -1,4 +1,4 @@
-config.py
+notebooks/config.py
 __pycache__
 .ipynb_checkpoints
 .DS_store
