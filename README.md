@@ -1,5 +1,9 @@
 # Optimizing Evacuation Routes: Identifying Blocked Roads in Real Time
 
+_By Brian Brakefield, Veronica Giannotta, Bala Krishnamoorthy, and Amy Taylor_
+
+![Alt text](https://github.com/balak4/Optimizing-Evac-Routes/tree/master/data/3-final/Sample_map_output_image.png)
+
 During emergency situations, every second matters. Search and rescue teams must be able to locate and get to survivors as quickly as possible. The latest GIS and navigation systems allow responders to calculate travel time and distance between origin and destination, and propose an optimal route to the destination. However, few current platforms rely on real-time data to identify blocked routes, damaged roads, etc., leading to potentially longer response times during and immediately following disastrous events.
 
 To that end, we have built a tool that utilizes machine learning techniques and social media / location data to identify and visualize road closures in real time. The tool takes in live Twitter posts and Here.com data, filters out the data that relate specifically to road closures in a given city, and dynamically populates the closures on a Google Map. This information can be leveraged by users to find the shortest, fastest routes to their destination by displaying current road closures in real time.
@@ -55,7 +59,8 @@ While the mapping tool is, in its current state, a working, end-to-end solution,
 -   Documentation:
 	-   [Twitter Developer](https://developer.twitter.com/en/docs.html) 
 	-   [Tweepy API](http://docs.tweepy.org/en/v3.5.0/index.html) 
-	-   [Jupyter Gmaps](https://jupyter-gmaps.readthedocs.io/en/latest/)
+	-   [HERE Developer](https://developer.here.com/)
+	- [Jupyter Gmaps](https://jupyter-gmaps.readthedocs.io/en/latest/)
 	-   [GeoPy](https://geopy.readthedocs.io/en/stable/) _(also referenced within the Jupyter Gmaps examples)_
 
 
@@ -82,6 +87,9 @@ While the mapping tool is, in its current state, a working, end-to-end solution,
 ## Team
 
 Brian Brakefield | [https://linkedin.com/in/brianbrakefield/](https://linkedin.com/in/brianbrakefield/)
+
 Veronica Giannotta | [https://www.linkedin.com/in/vgiannotta/](https://www.linkedin.com/in/vgiannotta/)
+
 Bala Krishnamoorthy | [https://www.linkedin.com/in/balakrishnamoorthy/](https://www.linkedin.com/in/balakrishnamoorthy/)
+
 Amy Taylor | [https://www.linkedin.com/in/amy-taylor-24999574/](https://www.linkedin.com/in/amy-taylor-24999574/)
