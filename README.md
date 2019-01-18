@@ -71,18 +71,6 @@ While the mapping tool is, in its current state, a working, end-to-end solution,
 
 -   GitHub Repos:
 	-   [https://github.com/Celis1/Project-5](https://github.com/Celis1/Project-5) _(project repo, previous DSI cohort)_
-    
-
-## Directory Structure
-
--   data: contains raw, transformed and final output data
--   data_dictionaries: tables describing variable name and meaning within notebooks
--   notebooks: jupyter notebooks
--   models: trained models, model predictions, model summaries
--   references: data dictionaries, and other explanatory materials.
--   reports: final report(s) summarizing project
--   src: source code for use in this project
-    
 
 ## Team
 
