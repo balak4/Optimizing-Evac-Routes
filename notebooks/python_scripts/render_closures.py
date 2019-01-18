@@ -19,15 +19,12 @@ def render_closures(data):
     marker_labels = []
 
     # draw road closures
-    for index,point in data.iterrows():
+    for index,_ in data.iterrows():
         # The parameters are mostly self-explanatory, but I will note that this uses
         # walking directions in case start and end points are contrary to one-way streets
         close = gmaps.directions_layer(start=data.iloc[index][0],end=data.iloc[index][1],
-                                       travel_mode='WALKING',show_markers=False,
+                                       travel_mode='DRIVING',show_markers=False,
                                       stroke_color='Red', stroke_opacity=0.8)
-        # Google Maps API limits to 50 requests per second
-        time.sleep(0.4)
-        
         # add this closure's layer
         fig.add_layer(close)
         # check for label text:
@@ -37,6 +34,8 @@ def render_closures(data):
             marker_coords.append(data.iloc[index][0])
             marker_labels.append(data.iloc[index][2])
 
+        # Google Maps API limits to 50 requests per second
+        time.sleep(0.3)
 
     # if marker_labels isn't empty
     if marker_labels != []:
