@@ -2,7 +2,8 @@
 
 _By Brian Brakefield, Veronica Giannotta, Bala Krishnamoorthy, and Amy Taylor_
 
-![Alt text](https://github.com/balak4/Optimizing-Evac-Routes/tree/master/data/3-final/Sample_map_output_image.png)
+![Alt text](https://github.com/balak4/Optimizing-Evac-Routes/blob/master/data/3-final/Sample_map_output_image.png)
+            
 
 During emergency situations, every second matters. Search and rescue teams must be able to locate and get to survivors as quickly as possible. The latest GIS and navigation systems allow responders to calculate travel time and distance between origin and destination, and propose an optimal route to the destination. However, few current platforms rely on real-time data to identify blocked routes, damaged roads, etc., leading to potentially longer response times during and immediately following disastrous events.
 
