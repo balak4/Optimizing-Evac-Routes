@@ -2,9 +2,6 @@
 
 _By Brian Brakefield, Veronica Giannotta, Bala Krishnamoorthy, and Amy Taylor_
 
-![Alt text](https://github.com/balak4/Optimizing-Evac-Routes/blob/master/data/3-final/Sample_map_output_image.png)
-            
-
 During emergency situations, every second matters. Search and rescue teams must be able to locate and get to survivors as quickly as possible. The latest GIS and navigation systems allow responders to calculate travel time and distance between origin and destination, and propose an optimal route to the destination. However, few current platforms rely on real-time data to identify blocked routes, damaged roads, etc., leading to potentially longer response times during and immediately following disastrous events.
 
 To that end, we have built a tool that utilizes machine learning techniques and social media / location data to identify and visualize road closures in real time. The tool takes in live Twitter posts and Here.com data, filters out the data that relate specifically to road closures in a given city, and dynamically populates the closures on a Google Map. This information can be leveraged by users to find the shortest, fastest routes to their destination by displaying current road closures in real time.
@@ -15,7 +12,10 @@ This Deliverable Includes:
 -   A set of Jupyter notebooks and executable scripts that output road closures on a Google Map
 -   Training and testing datasets of collected web data
 -   Guidance on future generations of the mapping tool
-    
+
+And here's the final output of the map:
+
+ ![Alt text](https://github.com/balak4/Optimizing-Evac-Routes/blob/master/data/3-final/Sample_map_output_image.png)   
 
 ## Methodology
 
